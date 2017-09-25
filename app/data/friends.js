@@ -20,6 +20,7 @@ var tableArray = [
       5,
       4,
       1
+    ]
   }
 ];
 
