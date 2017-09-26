@@ -1,14 +1,7 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
-
-var tableArray = [
+var friends = [
   {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"George Washington",
+  "photo":"https://www.biography.com/.image/c_fill%2Ccs_srgb%2Cg_face%2Ch_300%2Cq_80%2Cw_300/MTIwNjA4NjM0MDA1MzkwODYw/george-washington-9524786-1-402.jpg",
   "scores":[
       5,
       1,
@@ -22,7 +15,8 @@ var tableArray = [
       1
     ]
   }
+  
 ];
 
 // Note how we export the array. This makes it accessible to other files using require.
-module.exports = tableArray;
+module.exports = friends;
